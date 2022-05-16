@@ -1,23 +1,22 @@
 body {
-	background-color:#FFFFFF;
+	background-color:#F0F0F0;
 	font-family: "Lucida Grande","Lucida Sans Unicode",geneva,verdana,sans-serif;
 	font-size:14px;
 	color:#777;
 }
-
 #container {
-	width:65%;
-	margin:0 auto;
+    background-color:#FFFFFF;
+    border:1px solid #F0F0F0;
+	width:100%;
+    margin:2px;
 }
-
 #header {
-	background-color:#eeeeee;
+	background-color:#FFFFFF;
 	margin:10px;
 	padding:30px 10px 30px 10px;
 	border-top:2px solid #ccc;
     border-bottom:2px solid #ccc;
 }
-
 #header h1 {
 	text-align:center;
 	font-family:Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
@@ -27,7 +26,7 @@ body {
 	font-weight:normal;
 }
 #header h1 strong {
-	color:#A85BA6;
+	color:#3366CC;
 }
 #header h1 a {
 	color:#333;
@@ -65,9 +64,9 @@ body {
     background-color:#E8E8E8;
 	padding:5px 7px 7px 7px;
 }
-#header li a.current {
+/*#header li a.current {
     background-color:#E0E0E0;   
-}
+}*/
 #header li a em {
 	font-style:normal;
 	text-decoration:underline;
@@ -75,12 +74,27 @@ body {
 
 #sidebar {
 	float:right;
-	width:170px;
+	width:230px;
 	margin:10px 10px 10px 2px;
 }
 
 #sidebar h1 {
-	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-family:Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	color:#000;
+	margin:10px 5px 2px 10px;
+}
+#sidebar h1 a {
+	color:#000;
+	text-decoration:none;
+	display:block;
+	background-position:right;
+}
+#sidebar h1 a:hover {
+	color:#444;
+}
+#sidebar h2 {
+	font-family:Trebuchet MS, Geneva, Arial, Helvetica, sans-serif;
 	font-size:14px;
 	color:#000;
 	margin:10px 5px 2px 10px;
@@ -91,14 +105,12 @@ body {
 	line-height:17px;
 	word-spacing:-1px;
 }
-
 #sidebar .box {  
     padding:2px;
     background-color:#F0F0F0;
     border:1px solid #ccc;
-	margin:0px 5px 20px 5px;
+	margin:0px 2px 20px 10px;
 }
-
 ul.submenu {
     font-size:11px;
 	margin:2px;
@@ -108,7 +120,7 @@ ul.submenu ul {
     padding-left:4px;    
 }
 .submenu li {
-	marign:0;
+	margin:0;
 	padding:0;
 	list-style:none;
 }
@@ -120,9 +132,9 @@ ul.submenu ul {
 	margin:1px 0 0 0;
 	background-color:#F0F0F0;
 }
-.submenu a.current {
+/*.submenu a.current {
     background-color:#E0E0E0;   
-}
+}*/
 .submenu a:hover {
     color:#000;
 	background-color:#E8E8E8;
@@ -139,7 +151,7 @@ ul.submenu ul {
 }
 
 #content {
-	margin:10px 185px 10px 10px;
+	margin:10px 245px 10px 10px;
 }
 #content .box {  
     padding:10px;
@@ -223,12 +235,12 @@ ul.submenu ul {
 	border-bottom:1px solid #eee;
 }
 #content blockquote {
-	marign:2px;
+	margin:2px;
 	padding:10px 12px 10px 12px;
 }
 #content code pre {   
-    background-color:#F8F8F8;
-    padding:5px;
+	background-color:#F8F8F8;
+	padding:5px;
 	line-height:18px;
 	word-spacing: 0.1em;
 }
@@ -263,7 +275,7 @@ input, textarea {
 	color:#777;
 }
 #footer {
-	background-color:#eee;
+	background-color:#FFFFFF;
     margin:10px;
 	padding:30px 10px 30px 10px;
 	text-align:center;
@@ -280,11 +292,7 @@ a:hover {
 	padding:2px 2px 2px 2px;   
 }
 
-
 /*
 Normal light gray: F0F0F0
 Slightly darker light gray: E8E8E8
-
-
-
 */
