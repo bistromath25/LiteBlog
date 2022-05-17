@@ -9,5 +9,3 @@ $(function(){
         console.log("Some templates not loaded successfully")
     }
 });
-var base = window.location.protocol + "//" + window.location.host + "/" + window.location.pathname.split('/')[1];
-console.log("base url: " + base);

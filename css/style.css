@@ -7,8 +7,8 @@ body {
 #container {
     background-color:#FFFFFF;
     border:1px solid #F0F0F0;
-	width:100%;
-    margin:2px;
+	max-width:900px;
+    margin:2px auto;
 }
 #header {
 	background-color:#FFFFFF;
@@ -74,6 +74,7 @@ body {
 
 #sidebar {
 	float:right;
+    position:relative;
 	width:230px;
 	margin:10px 10px 10px 2px;
 }
