@@ -1,0 +1,258 @@
+/*
+Purple: #9674d4
+Midnight blue: #101356
+Off-white: #fbfdf6
+Bright blue: #81ffff
+Grey: #e8e8e8
+*/
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+	line-height: 1.5em;
+	background-color: #fbfdf6;
+	font-family: "Open Sans", serif;
+    font-size: 14pt;
+	color: #101356;
+}
+
+a {
+	text-decoration: none;
+	color: #101356;
+}
+
+a:hover {
+    /*background-color: #e8e8e8;*/
+    background-color: #81ffff;
+}
+
+#row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#column1 {
+    position: sticky;
+    overflow: hidden;
+    float: left;
+    top: 0;
+    width: 20%;
+    background-color: #e8e8e8;
+    color: #101356;
+	padding: 25px;
+    font-size: 16px;
+    text-align: center;
+    z-index: 200;
+}
+
+#column1 h1 {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding: 10px;
+}
+
+#column1 p {
+    font-size: 0.9em;
+}
+
+#column1 ul {
+	list-style: none;
+    padding: 15px;
+}
+
+#column1 ul li {
+	border-top: solid 1px #101356;
+	padding: 10px 0 10px 0;
+}
+
+#column1 ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#column1 img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#column1 .row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#column1 .block {
+    width: 100%;
+    margin: 10px;
+}
+
+#column1 .block a {
+    background-color: transparent;
+}
+
+#column1 .row-img {
+    width: 30px;
+    border-radius: 50%;
+}
+
+#column2 {
+    position: relative;
+    float: left;
+    width: 80%;
+    padding: 0px;
+}
+
+#column2 .header {
+    position: sticky;
+    top: 0;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(129, 255, 255, 0.8);
+    z-index: 999;
+}
+
+#column2 .header h1 {
+    color: #101356;
+    font-size: 2.2em;
+    line-height: 1.5em;
+    text-decoration: underline;
+}
+
+#column2 .header h1 a:hover {
+    background-color: #81ffff;
+    color: #9674d4;
+}
+
+#column2 .header h2 {
+    color: #101356;
+    font-size: 1em;
+    line-height: 1em;
+    font-style: italic;
+}
+
+#column2 .blogbox {
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#column2 .blogpostblurb {
+    padding-top: 20px;
+}
+
+#column2 .blogbox h1 {
+    color: #101356;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+#column2 .blogbox h2 {
+    color: #101356;
+    font-size: 0.7em;
+    line-height: 1.5em;
+    font-style: italic;
+}
+
+#column2 .blogbox p {
+    color: #101356;
+    font-size: 0.8em;
+    line-height: 1.5em;
+}
+
+#column2 .blogbox p a {
+    color: #9674d4;
+}
+
+#column2 .blogbox .navbutton {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    border-top: 1px solid #101356;
+    line-height: 1.5em;
+}
+
+#column2 .blogbox .blogpost {
+    padding-top: 20px;
+}
+
+#column2 .blogbox .blogpost h1 {
+    font-size: 1.3em;
+}
+
+#column2 .blogbox .blogpost h2 {
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+#column2 .blogbox .blogpost h3 {
+    font-size: 1.1em;
+    margin-top: 10px;
+}
+
+#column2 .blogbox .blogpost h4 {
+    font-size: 0.7em;
+    margin-top: -5px;
+    font-style: italic;
+}
+
+#column2 .blogbox .blogpost p {
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+#column2 .blogbox .blogpost img {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    width: 100%;
+}
+
+#column2 .blogbox .blogpost ul {
+	list-style-type: disc;
+    list-style-position: inside;
+    padding-top: 10px;
+}
+
+#column2 .blogbox .blogpost ul li {
+	padding: 0.2em 0.2em 0.2em 0.8em;
+}
+
+#column2 .blogbox .blogpost .quotebox {
+    position: center;
+    border-left: 2px solid #81ffff;
+    margin: 15px;
+    padding: 10px;
+    font-family: "Kreon";
+    text-align: left;
+}
+
+#column2 .blogbox .blogpost .quotebox p {
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-style: normal;
+    font-weight: lighter;
+}
+
+#column2 .blogbox .blogpost .quotebox h1 {
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+#column2 .blogbox .blogpost .codebox {
+    white-space: pre;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    margin: 15px;
+    padding: 10px;
+    background-color: #e8e8e8;
+    font-family: monospace;
+    line-height: 1.2em;
+}
