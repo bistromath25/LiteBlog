@@ -12,6 +12,10 @@ Grey: #e8e8e8
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0px;
     width: 100%;
@@ -30,6 +34,8 @@ a {
 a:hover {
     /*background-color: #e8e8e8;*/
     background-color: #81ffff;
+    padding: 2px;
+    border-radius: 10px;
 }
 
 #row:after {
@@ -121,6 +127,7 @@ a:hover {
 
 #column2 .header h1 {
     color: #101356;
+    font-family: "Kreon";
     font-size: 2.2em;
     line-height: 1.5em;
     text-decoration: underline;
@@ -129,6 +136,7 @@ a:hover {
 #column2 .header h1 a:hover {
     background-color: #81ffff;
     color: #9674d4;
+    border-radius: 10px;
 }
 
 #column2 .header h2 {
@@ -140,8 +148,8 @@ a:hover {
 
 #column2 .blogbox {
     padding-top: 20px;
-    padding-left: 15%;
-    padding-right: 15%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #column2 .blogpostblurb {
@@ -213,6 +221,7 @@ a:hover {
     margin-top: 10px;
     margin-bottom: 2px;
     width: 100%;
+    border-radius: 10px;
 }
 
 #column2 .blogbox .blogpost ul {
@@ -228,7 +237,7 @@ a:hover {
 #column2 .blogbox .blogpost .quotebox {
     position: center;
     border-left: 2px solid #81ffff;
-    margin: 15px;
+    margin: 15px 10px 15px 10px;
     padding: 10px;
     font-family: "Kreon";
     text-align: left;
@@ -248,11 +257,13 @@ a:hover {
 
 #column2 .blogbox .blogpost .codebox {
     white-space: pre;
+    font-family: monospace;
     font-size: 0.9em;
     line-height: 1.5em;
-    margin: 15px;
-    padding: 10px;
     background-color: #e8e8e8;
-    font-family: monospace;
-    line-height: 1.2em;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 10px;
 }
